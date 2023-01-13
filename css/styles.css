@@ -1,0 +1,192 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+  --color-main: #2e2f42;
+  --color-menu-link-hover: #404bbf;
+  --color-menu-mail-number: #434455;
+  --color-main-title: #ffffff;
+  --color-hero-button: #ffffff;
+  --color-btn-active-portfolio: #4d5ae5;
+  --color-btn-active-portfolio-focus: #ffffff;
+  --color-btn-portfolio: #4d5ae5;
+  --color-text-subtitle: #434455;
+  --color-text-footer: #e7e9fc;
+  --color-logo: #2e2f42;
+  --color-logo-part1: #4d5ae5;
+  --color-logo-footer: #f4f4fd;
+  --color-main-backphone: #ffffff;
+  --color-backphone-hero-button: #4d5ae5;
+  --color-backphone-hero-button-focus: #404bbf;
+  --color-backphone-btn-active-portfolio: #f4f4fd;
+  --color-backphone-btn-active-portfolio-focus: #404bbf;
+  --color-backphone-btn-portfolio: #f4f4fd;
+  --color-backphone-hero: #2e2f42;
+  --color-backfone-team-list: #f4f4fd;
+  --color-backfone-photo-employee: #ffffff;
+  --color-backfone-footer: #2e2f42;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: var(--main-font);
+  background: var(--color-main-backphone);
+  color: var(--color-main);
+}
+.visualli-hiden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/*=========Componets==========*/
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.text-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-subtitle);
+}
+/*--------Components--------*/
+/*--------Header-----------*/
+.logo {
+  font-family: var(--logo-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-logo);
+}
+.logopart1 {
+  color: var(--color-logo-part1);
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-main);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--color-menu-link-hover);
+}
+.mail-text {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-menu-mail-number);
+}
+.mail-text:hover,
+.mail-text:focus {
+  color: var(--color-menu-link-hover);
+}
+.phone-number {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-menu-mail-number);
+}
+/*--------/Header-----------*/
+/*--------------Hero----------*/
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--color-main-title);
+  text-align: center;
+}
+.hero-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-hero-button);
+  background: var(--color-backphone-hero-button);
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background: var(--color-backphone-hero-button-focus);
+}
+/*--------------/Hero----------*/
+.hero {
+  background: var(--color-backphone-hero);
+}
+/*----------Section2---------*/
+
+/*-----------/Section2--------*/
+/*-----------Section3---------*/
+
+/*-----------/Section3---------*/
+/*-----------Section4---------*/
+
+/*-----------/Section4---------*/
+.team-list {
+  background: var(--color-backfone-team-list);
+}
+.photo-employee {
+  background: var(--color-backfone-photo-employee);
+}
+
+/*-----------/Section4---------*/
+/*--------Potfolio-Section our works-------*/
+.btn-portfolio {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-btn-active-portfolio);
+  background: var(--color-backphone-btn-active-portfolio);
+  cursor: pointer;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: var(--color-btn-active-portfolio-focus);
+  background: var(--color-backphone-btn-active-portfolio-focus);
+}
+
+/*--------Footer------------*/
+.part-footer {
+  background: var(--color-backfone-footer);
+}
+.logofooter {
+  line-height: 1.17;
+  color: var(--color-logo-footer);
+}
+.logopart1footer {
+  line-height: 1.17;
+}
+.text-footer {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-footer);
+}
+/*-----------/Footer-----------*/
