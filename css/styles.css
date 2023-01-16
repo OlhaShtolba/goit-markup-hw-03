@@ -102,6 +102,8 @@ body {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+.page-header-portfolio {
   border-bottom: 1px solid #e7e9fc;
 }
 .logo {
@@ -175,8 +177,8 @@ body {
 /*--------------Hero----------*/
 .hero {
   text-align: center;
-  /* padding: 188px 473px;*/
   background: var(--color-backphone-hero);
+  padding: 188px 0;
 }
 .main-title {
   font-size: 56px;
@@ -185,7 +187,6 @@ body {
   color: var(--color-main-title);
   margin: 0 auto;
   max-width: 494px;
-  padding-top: 188px;
 }
 .hero-button {
   padding: 16px 32px;
@@ -196,9 +197,9 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-hero-button);
   background: var(--color-backphone-hero-button);
-  margin-bottom: 188px;
-  margin-top: 48px;
   border-radius: 4px;
+  border: none;
+  margin-top: 48px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -245,6 +246,9 @@ body {
 .photo-employee {
   flex-basis: calc((100% - 72px) / 4);
   background: var(--color-backfone-photo-employee);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .card {
   padding: 32px 16px;
@@ -258,7 +262,7 @@ body {
   justify-content: center;
   column-gap: 24px;
   padding-top: 96px;
-  padding-bottom: 120px;
+  margin-bottom: 72px;
 }
 .btn-portfolio {
   padding: 12px 24px;
@@ -276,6 +280,8 @@ body {
 .btn-portfolio:focus {
   color: var(--color-btn-active-portfolio-focus);
   background: var(--color-backphone-btn-active-portfolio-focus);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-list {
@@ -298,7 +304,7 @@ body {
 /*--------Footer------------*/
 .part-footer {
   background: var(--color-backfone-footer);
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .logofooter {
