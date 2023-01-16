@@ -7,7 +7,6 @@
   --color-main-title: #ffffff;
   --color-hero-button: #ffffff;
   --color-btn-active-portfolio: #4d5ae5;
-  --color-btn-active-portfolio-focus: #ffffff;
   --color-btn-portfolio: #4d5ae5;
   --color-text-subtitle: #434455;
   --color-text-footer: #e7e9fc;
@@ -256,12 +255,15 @@ body {
 }
 /*-----------/Section4---------*/
 /*--------Potfolio-Section our works-------*/
-
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .btn-list {
   display: flex;
   justify-content: center;
   column-gap: 24px;
-  padding-top: 96px;
+  /* padding-top: 96px; */
   margin-bottom: 72px;
 }
 .btn-portfolio {
@@ -282,6 +284,7 @@ body {
   background: var(--color-backphone-btn-active-portfolio-focus);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+    border: #404BBF;
 }
 
 .portfolio-list {
@@ -289,7 +292,7 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
 }
 .portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
